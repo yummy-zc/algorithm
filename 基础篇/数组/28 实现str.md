@@ -39,7 +39,7 @@
 
 ### 代码
 
-JavaScript
+*JavaScript*
 
 ```JS
 // indexOf
@@ -62,7 +62,7 @@ var strStr = function (haystack, needle) {
 }
 ```
 
-Java
+*Java*
 
 ```Java
 class Solution {
@@ -97,7 +97,7 @@ class Solution {
 
 ### 代码
 
-JavaScript
+*JavaScript*
 
 ```JS
 var strStr = function(haystack, needle) {
@@ -115,7 +115,7 @@ var strStr = function(haystack, needle) {
 };
 ```
 
-Java
+*Java*
 
 ```Java
 class Solution {
