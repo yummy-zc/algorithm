@@ -1,8 +1,47 @@
-## 28 实现 str
+[TOC]
 
-![image-20210208163322152](/Users/yummy/web开发/文章笔记/typora-notes/Typora笔记/算法/LeetCode（Lucifer）/基础篇/数组.assets/image-20210208163322152.png)
+# 28 实现 str
 
-内置函数处理
+## 题目描述
+
+```
+实现 strStr() 函数。
+
+给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
+
+示例 1:
+
+输入: haystack = "hello", needle = "ll"
+输出: 2
+示例 2:
+
+输入: haystack = "aaaaa", needle = "bba"
+输出: -1
+说明:
+
+当 needle 是空字符串时，我们应当返回什么值呢？这是一个在面试中很好的问题。
+
+对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/implement-strstr
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+## 方法一：内置函数处理
+
+### 思路
+
+（略）
+
+### 复杂度分析
+
+- 时间复杂度：
+- 空间复杂度：
+
+### 代码
+
+JavaScript
 
 ```JS
 // indexOf
@@ -25,7 +64,9 @@ var strStr = function (haystack, needle) {
 }
 ```
 
-```java
+Java
+
+```Java
 class Solution {
     public int strStr(String haystack, String needle) {
         if (haystack.toString() == needle.toString()) return 0
@@ -39,7 +80,26 @@ class Solution {
 }
 ```
 
-滑动窗口，双指针
+### **总结**
+
+（略）
+
+
+
+## 方法二：滑动窗口，双指针
+
+### 思路
+
+（略）
+
+### 复杂度分析
+
+- 时间复杂度：
+- 空间复杂度：
+
+### 代码
+
+JavaScript
 
 ```JS
 var strStr = function(haystack, needle) {
@@ -57,7 +117,9 @@ var strStr = function(haystack, needle) {
 };
 ```
 
-```java
+Java
+
+```Java
 class Solution {
     public int strStr(String haystack, String needle) {
     	int n = haystack.length(), m = needle.length();
@@ -72,6 +134,9 @@ class Solution {
 }
 ```
 
+### **总结**
+
 注意到 移动主串上的指针时，在未进行完完全的比较成功时不要移动主串指针，仅加上某个变量值来访问后面元素，否者容易忽略到意外情况
 
-**KMP 解法**
+## **KMP 解法**
+
