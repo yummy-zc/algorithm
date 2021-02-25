@@ -7,6 +7,8 @@
 3. 默认背诵、熟练
 4. 然后开始自己写（闭卷）
 
+[基础数据结构总览](https://github.com/leetcode-pp/91alg-2/blob/master/lecture/basic-01.md)
+
 # Leetcode
 
 ## 数组
