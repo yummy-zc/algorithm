@@ -1,6 +1,8 @@
-# JS
+# 转换类
 
-### object.entires(obj) 将对象转换为数组
+## 对象转数组
+
+#### object.entires(obj) 
 
 `参数：obj ,可以返回其可枚举属性的键值对的对象。`
 
@@ -17,3 +19,4 @@ for (const [key, value] of Object.entries(object1)) {
 }
 ```
 
+# 
