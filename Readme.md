@@ -30,13 +30,9 @@
 
 ## 专题篇
 
-- [ ] 二分专题
+- [x] [二分专题](/leetcode/讲义/专题篇/二分查找.md)
 - [x] [滑动窗口专题](/leetcode/讲义/专题篇/滑动窗口.md)
 - [ ] 位运算专题
 - [ ] 搜索专题
 - [ ] [递归专题](/leetcode/讲义/专题篇/递归.md)
 - [ ] [动态规划](/leetcode/讲义/专题篇/动态规划.md)
-
-
-
-# [十大排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
